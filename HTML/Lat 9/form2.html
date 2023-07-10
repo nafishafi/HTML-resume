@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORM</title>
+</head>
+<body>
+<!--(Input;textarea;select;button;label)-->
+<!--(input type)=text;password;radio;checkbox;(submit:reset;button)-->
+    <form>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td><label for="username"><strong>Nama :</strong></label></td>
+                <td><input type="text" id="username"></td>
+             </tr>
+             <tr>
+                <td><label for="x">Password :</label></td>
+                <td><input type="password" id="x"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+                <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+                <input type="checkbox" id="makan"><label for="makan">Makan</label>
+                <input type="checkbox" id="Tidur"><label for="Tidur">Tidur</label></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Kirim"></td>
+            </tr>
+<!--Lebih di rekomen menngunakan button-->
+<!--(buttton type)= submit;reset;button-->
+            <tr>
+                <td colspan="2" align="center"><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="combobox">Combo Box :</label></td>
+                <td align="center"><select id="combobox">
+                    <option>Rembang</option>
+                    <option>Demak</option>
+                    <option>Semarang</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button type="submit">Submit</button></td>
+            </tr>
+    </table>
+    </form>
+</body>
+</html>
